@@ -1,0 +1,165 @@
+# 🏦 Banking Transaction Analysis Dashboard
+
+## 📌 Project Overview
+
+The Banking Transaction Analysis Dashboard is an end-to-end Data Analytics project developed using **PostgreSQL**, **SQL**, **Power BI**, and **DAX**. The dashboard provides valuable insights into banking transactions, customer behavior, branch performance, account types, and transaction channels to support data-driven decision-making.
+
+---
+
+## 🎯 Business Problem
+
+Banks process thousands of transactions daily across multiple branches and channels. Analyzing this data manually is difficult and time-consuming.
+
+This dashboard helps management:
+
+- Monitor transaction trends
+- Analyze customer segments
+- Track branch performance
+- Evaluate product categories
+- Support business decisions using interactive dashboards
+
+---
+
+## 🛠 Tech Stack
+
+- PostgreSQL
+- SQL
+- Power BI
+- DAX
+- Power Query
+- Data Modeling
+
+---
+
+## 🗂 Dataset
+
+### Fact Table
+- FactTransaction
+
+### Dimension Tables
+- DimCustomer
+- DimAccount
+- DimBranch
+- DimDate
+- DimProduct
+- DimProductSubCategory
+- DimProductCategory
+
+---
+
+## 📊 Dashboard Features
+
+### KPI Cards
+
+- Total Customers
+- Total Accounts
+- Total Transactions
+- Total Credit Amount
+- Total Debit Amount
+- Total Branches
+
+### Interactive Slicers
+
+- Year
+- Branch
+- Account Type
+- Transaction Channel
+
+### Visualizations
+
+- Yearly Transaction Trend
+- Transaction by Account Type
+- Transaction by Product Category
+- Transaction by Channel
+- Customer Segment Analysis
+- Customer Gender Analysis
+- Top 10 Branches
+
+---
+
+## 📈 Key Business Insights
+
+- Transaction volume reached its highest level in **2025**.
+- **Web** is the most preferred transaction channel.
+- **Retail** is the largest customer segment.
+- **Lending** generated the highest transaction value.
+- Debit transactions exceeded credit transactions, indicating higher cash outflow.
+
+---
+
+## 💡 Business Recommendations
+
+- Increase investment in digital banking channels.
+- Improve low-performing branches.
+- Strengthen customer retention in the Retail segment.
+- Promote deposit and credit products.
+- Monitor KPIs regularly for better decision-making.
+
+---
+
+## 🧮 SQL Analysis
+
+The project includes business-focused SQL queries covering:
+
+- JOIN
+- GROUP BY
+- ORDER BY
+- Aggregate Functions
+- Customer Analysis
+- Branch Analysis
+- Product Analysis
+- Transaction Analysis
+
+---
+
+## 📷 Dashboard Preview
+
+> Add your dashboard screenshot here.
+
+---
+
+## 📁 Repository Structure
+
+```text
+Banking-Transaction-Analysis-Dashboard
+│
+├── README.md
+├── Banking_Transaction_Analysis.pbix
+├── Banking_SQL_Analysis.sql
+├── Dashboard.png
+```
+
+---
+
+## 🚀 How to Run
+
+1. Download the repository.
+2. Open the SQL file in PostgreSQL.
+3. Execute the SQL script.
+4. Open the `.pbix` file in Power BI Desktop.
+5. Refresh the data.
+6. Explore the interactive dashboard.
+
+---
+
+## 📌 Project Highlights
+
+- End-to-End Data Analytics Project
+- Star Schema Data Model
+- SQL-Based Business Analysis
+- Interactive Power BI Dashboard
+- Business KPI Reporting
+- Executive-Level Insights
+
+---
+
+## 👨‍💻 Author
+
+**Shoaib Shaikh**
+
+- GitHub: https://github.com/YOUR_USERNAME
+- LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+
+---
+
+⭐ If you found this project useful, consider giving it a Star.
